@@ -9,4 +9,5 @@ if you wanna use this as your os skeleton:
   either enumerate them yourself or use spcr.
 * no boot services are used. if you expect to have a large memory map, you might
   want to dynamically allocate space to parse them instead of using whatever
-  hardcoded space i use.
+  hardcoded space i use. in a similar manner, the rangeset implementation is
+  hardcoded to use 256 free ranges at most.
